@@ -124,7 +124,7 @@ archExt=".tar.xz"
 export TERM=xterm
 TIMEFORMAT="%E"
 
-runDir=${runDir%/} ; srcDir=${srcDir%/} ## Deslashify.
+runDir=${runDir%/} ; srcDir=${srcDir%/} ; srcName=${srcName%/} ## Deslashify.
 outDir=${outDir%/} ; archDir=${archDir%/} ## Deslashify.
 src="$srcDir/$srcName" ## Full path to source.
 archiveFN="$archName$archExt" ## Archive file name and extension.
